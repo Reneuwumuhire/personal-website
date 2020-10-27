@@ -1,0 +1,18 @@
+.social__medias {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	z-index: 20;
+	align-items: center;
+	justify-content: center;
+	bottom: 10px;
+}
+
+.social__medias a {
+	margin-left: 10px;
+	padding: 10px;
+	color: white;
+}
+.social__medias a:hover {
+	color: #fd5351;
+}

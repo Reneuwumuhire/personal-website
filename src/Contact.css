@@ -1,0 +1,31 @@
+.contact {
+	/* width: 90%; */
+	position: relative;
+	align-self: center;
+	width: 80%;
+}
+.contact > h1 {
+	font-weight: 900;
+	font-size: 15vw;
+	line-height: 14vh;
+	word-break: break-all;
+	scroll-behavior: smooth;
+	color: #fd5351 !important;
+	padding-bottom: 6vw;
+}
+.contact > p {
+	width: 70%;
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+	.contact {
+		width: 98%;
+	}
+	.contact > p {
+		font-size: 14px;
+		width: 98%;
+	}
+}

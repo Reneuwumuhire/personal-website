@@ -1,0 +1,12 @@
+.sideMenu {
+	display: flex;
+	flex-direction: row;
+}
+.sideMenu a {
+	font-size: 2vw;
+}
+.sideMenu a:hover {
+	background-color: rebeccapurple;
+	color: #fd5351;
+	cursor: pointer;
+}
