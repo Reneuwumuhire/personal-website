@@ -1,0 +1,13 @@
+.workCard {
+}
+.workCard > img {
+	display: flex;
+	max-width: 100%;
+	object-fit: contain;
+	max-height: 100%;
+}
+@media only screen and (max-width: 600px) {
+	.workCard {
+		width: 80%;
+	}
+}

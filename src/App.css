@@ -42,10 +42,8 @@
 .app__router {
 	display: flex;
 	flex-direction: column;
-	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: auto 20px auto 20px;
 }
 @media only screen and (max-width: 600px) {
 	.app__nav {

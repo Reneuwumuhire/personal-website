@@ -11,12 +11,21 @@
 	word-break: break-all;
 	scroll-behavior: smooth;
 	color: #fd5351 !important;
-	margin-bottom: 6vw;
+	padding-bottom: 6vw;
 }
 .about > p {
-	width: inherit;
-	font-size: 4vw;
+	width: 70%;
+	font-size: 20px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	font-weight: 300;
-	margin-bottom: 2vh;
+	padding-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+	.about {
+		width: 98%;
+	}
+	.about > p {
+		font-size: 14px;
+		width: 98%;
+	}
 }

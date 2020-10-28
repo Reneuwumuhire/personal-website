@@ -11,6 +11,7 @@ function App() {
   return (
 
     <div className="app">
+
       <Router>
         <nav className="app__nav">
           <div className="app__nav__image">

@@ -1,0 +1,11 @@
+.works {
+	position: relative;
+	align-self: center;
+	width: 100%;
+	margin: auto;
+	width: 80vw;
+	height: 70vh;
+}
+.work__card {
+	/* background-color: lightcoral; */
+}
