@@ -7,14 +7,15 @@ function Home() {
         <div className="home">
             <h1>Hello,</h1><br></br>
             <h1>I am</h1>
+
             <Typical
                 loop={Infinity}
                 wrapper='b'
                 steps={[
-                    'designer🎨', 1000,
-                    'Front-End-Dev👨‍💻', 1000,
-                    'artist✍️', 1000,
-                    'Youtuber📹', 1000,
+                    'designer🎨', 500,
+                    'Front-End-Dev👨‍💻', 500,
+                    'artist✍️', 500,
+                    'Youtuber📹', 500,
 
                 ]}
 

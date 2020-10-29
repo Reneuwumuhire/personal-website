@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Route } from 'react-router-dom'
+import './SideMenu.css';
 // import { FaBars } from 'react-icons/fa';
 
 
@@ -7,13 +8,15 @@ import { Link } from 'react-router-dom'
 
 function SideMenu() {
     return (
-        <div className="sideMenu">
-            <Link to="/" style={{ textDecoration: 'none', color: 'white', padding: '10px' }}>Home</Link>
-            <Link to="/contact" style={{ textDecoration: 'none', color: 'white', padding: '10px' }}>Contact Me</Link>
-            <Link to="/about" style={{ textDecoration: 'none', color: 'white', padding: '10px' }}>About Me</Link>
-            <Link to="/work" style={{ textDecoration: 'none', color: 'white', padding: '10px' }}> My Work</Link>
+        <Route>
+            <div className="sideMenu">
+                <Link className="nav__links" to="/">Home</Link>
+                <Link className="nav__links" to="/contact" >Contact Me</Link>
+                <Link className="nav__links" to="/about" >About Me</Link>
+                <Link className="nav__links" to="/work"  >My Work</Link>
 
-        </div>
+            </div>
+        </Route>
     )
 }
 

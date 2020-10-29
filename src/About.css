@@ -3,6 +3,7 @@
 	position: relative;
 	align-self: center;
 	width: 100%;
+	padding: 60px;
 }
 .about > h1 {
 	font-weight: 900;
@@ -22,7 +23,8 @@
 }
 @media only screen and (max-width: 600px) {
 	.about {
-		width: 98%;
+		width: 100%;
+		padding: 15px;
 	}
 	.about > p {
 		font-size: 14px;

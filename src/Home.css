@@ -23,3 +23,8 @@
 	word-break: break-all;
 	line-height: 18vh;
 }
+@media only screen and (max-width: 600px) {
+	.home h1 {
+		font-size: 7em;
+	}
+}

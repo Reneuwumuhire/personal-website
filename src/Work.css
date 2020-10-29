@@ -1,11 +1,33 @@
 .works {
 	position: relative;
-	align-self: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 100%;
 	margin: auto;
-	width: 80vw;
-	height: 70vh;
+	width: 50vw;
+	height: 80vh;
 }
 .work__card {
 	/* background-color: lightcoral; */
+}
+.work__card_list {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slick-slider {
+	position: relative;
+	width: 100%;
+}
+@media only screen and (max-width: 600px) {
+	.works {
+		/* width: 90%; */
+		height: 100%;
+		/* overflow: auto; */
+	}
+	.slick-slider {
+		width: 350px;
+	}
 }

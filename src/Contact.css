@@ -1,8 +1,8 @@
 .contact {
-	/* width: 90%; */
 	position: relative;
 	align-self: center;
-	width: 80%;
+	width: 100%;
+	padding: 60px;
 }
 .contact > h1 {
 	font-weight: 900;
@@ -22,7 +22,8 @@
 }
 @media only screen and (max-width: 600px) {
 	.contact {
-		width: 98%;
+		width: 100%;
+		padding: 15px;
 	}
 	.contact > p {
 		font-size: 14px;
